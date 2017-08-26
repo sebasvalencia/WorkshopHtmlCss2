@@ -47,7 +47,12 @@
     float: left;
 }
 
+/*Estilos google font*/
 
+p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
 
 
 
