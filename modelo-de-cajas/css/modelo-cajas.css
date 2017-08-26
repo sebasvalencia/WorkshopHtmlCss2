@@ -1,8 +1,24 @@
 
 
+
+/*cleafix cf*/
+
+
+.cf:before, .cf:after{
+    content: "";
+    display: table;
+}
+
+.cf:after{
+    clear: both;/*limpia en memoria */
+}
+
+
+
 .cajas{
     border: 2px solid green;
     position: relative;
+    background-color: pink;
 }
 
 
