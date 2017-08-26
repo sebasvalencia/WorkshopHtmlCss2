@@ -10,21 +10,25 @@
     background: #0851b4;
     width: 300px;
     height: 150px;
+    /* position: absolute; */
+    float: left;
 }
 
 .verde{
     background: #039d21;
     width: 300px;
     height: 150px;
-    position: absolute;/*mover la caja a la derecha*/
-    right: 0;
-    top: 0; /*lo sube a la derecha*/
+    /*position: absolute;/*mover la caja a la derecha*/
+    /*right: 0;
+    left: 0; /*lo sube a la derecha*/
+    float:left;
 }
 
 .amarillo{
     background: #f0cc03;
     width: 300px;
     height: 150px;
+    float: left;
 }
 
 
