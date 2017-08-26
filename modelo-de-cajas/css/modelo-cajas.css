@@ -2,6 +2,7 @@
 
 .cajas{
     border: 2px solid green;
+    position: relative;
 }
 
 
@@ -15,6 +16,9 @@
     background: #039d21;
     width: 300px;
     height: 150px;
+    position: absolute;/*mover la caja a la derecha*/
+    right: 0;
+    top: 0; /*lo sube a la derecha*/
 }
 
 .amarillo{
